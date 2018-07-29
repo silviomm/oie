@@ -15,5 +15,5 @@ app.use(bodyParser.json());
 
 require('./api')(app);
 
-app.listen(8080, "127.0.0.1", () => 
+app.listen(8080, "0.0.0.0", () => 
     console.log(`Servidor rodando em http://${ip}:8080`));
