@@ -1,5 +1,5 @@
 const https = require('https');
-const ulr = "http://serverguiaai-serverguiaai.193b.starter-ca-central-1.openshiftapps.com";
+const url = "http://serverguiaai-serverguiaai.193b.starter-ca-central-1.openshiftapps.com";
 module.exports = app => {
 
     const ip = app.get('ip');
